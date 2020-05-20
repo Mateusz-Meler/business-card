@@ -38,6 +38,7 @@ body {
 
 .person__image {
   margin-right: 32px;
+  border-radius: 50%;
 }
 
 .person__info {
