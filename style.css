@@ -23,6 +23,7 @@ body {
   border-radius: 16px;
   padding: 32px;
   max-width: 624px;
+  margin: 16px;
 }
 
 .person {
@@ -63,4 +64,22 @@ body {
 .links {
   color: #e20613;
   text-decoration: none;
+}
+
+@media screen and (max-width: 514px) {
+  .person__dscription {
+    font-size: 10px;
+    line-height: 18px;
+    width: 100%;
+  }
+  .person__position {
+    font-size: 14px;
+  }
+  .person__name {
+    font-size: 20px;
+  }
+  .person__image {
+    margin-right: 32px;
+    width: 35%;
+  }
 }
